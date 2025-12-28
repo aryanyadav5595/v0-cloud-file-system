@@ -32,7 +32,7 @@ A full-stack cloud storage and notes management application built with Next.js 1
 
 Create a `.env.local` file in the root directory with the following variables:
 
-```env
+\`\`\`env
 # Azure Blob Storage
 AZURE_STORAGE_CONNECTION_STRING=your_azure_storage_connection_string
 
@@ -43,23 +43,23 @@ AZURE_COSMOS_DATABASE_ID=CloudFileSystemDB
 
 # JWT Secret
 JWT_SECRET=your_jwt_secret_key_change_in_production
-```
+\`\`\`
 
 ## Getting Started
 
 1. **Install dependencies**:
-   ```bash
+   \`\`\`bash
    npm install
-   ```
+   \`\`\`
 
 2. **Set up environment variables**:
    - Copy `.env.example` to `.env.local`
    - Fill in your Azure credentials
 
 3. **Run the development server**:
-   ```bash
+   \`\`\`bash
    npm run dev
-   ```
+   \`\`\`
 
 4. **Open your browser**:
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -70,7 +70,7 @@ JWT_SECRET=your_jwt_secret_key_change_in_production
 
 ## Project Structure
 
-```
+\`\`\`
 ├── app/                      # Next.js app router pages
 │   ├── api/                  # API routes
 │   │   ├── auth/            # Authentication endpoints
@@ -92,7 +92,7 @@ JWT_SECRET=your_jwt_secret_key_change_in_production
 │   ├── types.ts             # TypeScript type definitions
 │   └── utils.ts             # General utilities
 └── proxy.ts                 # Middleware for route protection
-```
+\`\`\`
 
 ## Application Structure
 
